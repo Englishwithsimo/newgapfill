@@ -1,3 +1,8 @@
+document.getElementById('check-answers').addEventListener('click', function() {
+            const answers = {
+                q1: 'will visit',
+                q2: 'visited'
+            };
 let score = 0;
 
             for (let key in answers) {
